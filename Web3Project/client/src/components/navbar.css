@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+.navbar{
+    background: linear-gradient(to right, #380436, #0f5f66);
+    color: rgb(236, 245, 245);
+} 
+
+.logo{
+    width: 50%;
+    margin: 10px 70px;
+}
+
+.nav-list{
+    padding: 0 200px;
+}
+.nav-item{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-link{
+    color: #ecf3f7 !important;
+    font-size: 23px;
+    font-family: "Anta", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.btn{
+    background-color: #1765db;
+    color: white;
+    border: none;
+    padding: 7px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 23px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

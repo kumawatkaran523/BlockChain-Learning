@@ -1,0 +1,25 @@
+To install hardhat - npm install --save-dev hardhat
+To run hardhat - npx hardhat
+To install chai and others - npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
+
+Steps After Installation:
+Update hardhat.config.js: After installing the above packages, make sure to require and configure them in your hardhat.config.js file
+
+require("@nomiclabs/hardhat-ethers");
+require("@nomiclabs/hardhat-waffle");
+
+module.exports = {
+  solidity: "0.8.18", // Use the Solidity version you need
+  networks: {
+    // Network configuration here
+  },
+};
+
+
+then create test folder, script folder,contracts folder
+then write contracts in contracts folder
+then write test in test folder
+
+
+// for testing : npx hardhat test 
+// for deploy : npx hardhat run scripts/deploy.js

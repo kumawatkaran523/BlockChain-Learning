@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.welcome {
+    background: linear-gradient(to right, #380436, #0f5f66);
+    color: white !important;
+    padding: 140px 250px;
+    display: flex ;
+    flex-direction:row;
+}
+
+
+.quate{
+    /* border: solid; */
+    max-width:30%;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding: 0%;
+}
+
+.subhead{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.connect-btn{
+    background-color: #1765db;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 7px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    margin-top: 30px;
+}
+
+.grid-item {
+    border: 1px solid rgb(153, 150, 144);
+    background: transparent;
+    padding: 15px;
+    padding-left: 50px; 
+    padding-right: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.c1{
+    border-radius: 20px 0 0;
+}
+.c2{
+    border-radius: 0 20px 0 0;
+}
+.c3{
+    border-radius: 0 0 0 20px ;
+}
+.c4{
+    border-radius: 0 0 20px;
+}
+
+.right-half{
+    margin-inline-start: 30%;
+}
+.card{
+    /* background: linear-gradient(to right,#d1d0d0 , hsl(210, 1%, 26%)); */
+
+    background: linear-gradient(150deg, #f35ddf, #5523d4 100%);
+    width: 350px;
+    height: 190px;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.eth-icon{
+    width: 90px;
+    height: 90px;
+    border-radius:100%;
+    border: 2px solid black !important;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.card-add{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.info-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    /* height: 300px; */
+    background-color:#47628a;
+    color: rgb(75, 119, 241);
+    justify-content: center;
+    align-items: center;
+    border-radius:20px ;
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+.form-control {
+    width: 380px;
+    height: 50px;
+    background-color: #293a55;
+    color: rgb(75, 119, 241);
+    border: none;
+    border-radius: 12px;
+    outline: none !important;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.form-control::placeholder {
+    color: rgb(75, 119, 241) !important; /* Placeholder text color */
+}
+
+/* Styles for the focused state of the input */
+.form-control:focus {
+    background-color: #293a55; /* Set background color when focused */
+    color: rgb(75, 119, 241);
+    outline: none; /* Remove default focus outline */
+}
+
+.line {
+    width: 80%;
+}
+
+.line hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0; /* Adjust the margin to control the spacing between the form and the line */
+}
+
+
+.form-btn {
+    width: 380px;
+    height: 50px;
+    background-color: #293a55;
+    color: rgb(219, 223, 236);
+    border: 1px solid rgb(122, 118, 118);
+    border-radius: 30px;
+    outline: none!important;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 600;
+ }
